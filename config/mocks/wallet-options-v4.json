@@ -59,6 +59,7 @@
         "isStakingEnabled": true,
         "mergeAndUpgrade": false,
         "nftExplorer": true,
+        "newSendFlow": true,
         "recurringBuys": true,
         "rewardsFlowUnderSwapEnabled": true,
         "rewardsPromoBanner": true,
