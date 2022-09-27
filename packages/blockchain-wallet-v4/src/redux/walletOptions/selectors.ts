@@ -174,3 +174,7 @@ export const getIsStakingEnabled = (state: RootState) =>
 // crates nabu user at login if credentials aren't in metadata
 export const createNabuUserAtLogin = (state: RootState) =>
   getWebOptions(state).map(path(['featureFlags', 'createNabuUserAtLogin']))
+
+// new send flow
+export const getNewSendFlowEnabled = (state: RootState) =>
+  getWebOptions(state).map(path(['featureFlags', 'newSendFlow']))
